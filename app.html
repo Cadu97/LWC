@@ -1,0 +1,50 @@
+<template>
+
+  <lightning-card>
+    <div class="back">
+      <Div class=" slds-m-arround_medium">
+        <h1 class="slds-text-heading_large">
+
+          Atividade LWC
+
+        </h1>
+
+        <p> Empresa: {Empresa}</p>
+        <p> CNPJ: {CNPJ}</p>
+        <p> Endereço: {Endereco}</p>
+
+      </Div>
+
+
+      <Div if:true={visible}>
+
+        <Div class="slds-m-arround_medium">
+          <h2 class="slds-text-heading_medium">
+            <strong> Essa é a segunda Div </strong>
+          </h2>
+          <p> Produto: {Produto}</p>
+          <p> Descrição: {Descricao}</p>
+          <p> Preço: {Preco}</p>
+
+        </Div>
+
+        <Div class="slds-m-arround_medium">
+          <h2 class="slds-text-heading_medium">
+            <strong> Essa é a terceira Div </strong>
+          </h2>
+          <p> Promoção: {Promocao}</p>
+          <p> Oferta 1: {Oferta1}</p>
+          <p> Oferta 2: {Oferta2}</p>
+
+        </Div>
+      </Div>
+
+
+      <lightning-button variant="brand" label="Ocultar Divs" title="Alterar Visible" onclick={trocarDiv}>
+        class="slds-m-left_x-small"></lightning-button>
+    </div>
+
+  </lightning-card>
+
+
+</template>

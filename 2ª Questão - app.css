@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(0, 112, 210);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+    color: rgb(62, 62, 60);
+}
+.app {
+    background-color: #03d1ff;
+    height: 100vh;
+    overflow: scroll;
+}
